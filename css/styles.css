@@ -1,4 +1,13 @@
+:root {
+    --first-color-text: #000;
+    --second-color-text: #333;
+    --color-white: #fff;
+--iris: #4d5a4d;
+
+}
 body{
+    font-family: 'Roboto', 'Verdana', 'Tahoma', sans-serif;
+    color: #333;
     background-color: #fff;
 }
 nav {
@@ -8,4 +17,26 @@ nav {
 li {
     color: blue;
     font-size: 50px;
+    a {
+        text-decoration: none;
+    }
+}
+header {
+    background-color: var(--iris);
+}
+button {
+    color: var(--color-white);
+
+}
+a:hover, button:hover {
+    color: orange;
+}
+
+.logo {
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--first-color-text);
+}
+.logo .highlight {
+    color: var(--second-color-text);
 }
