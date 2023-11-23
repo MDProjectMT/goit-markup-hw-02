@@ -1,0 +1,11 @@
+body{
+    background-color: #fff;
+}
+nav {
+    background-color: gray;
+}
+    
+li {
+    color: blue;
+    font-size: 50px;
+}
