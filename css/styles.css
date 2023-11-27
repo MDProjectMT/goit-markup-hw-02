@@ -3,6 +3,7 @@
     --color-background: #F4F4FD;
     --body-color: #434455;
     --iris: #4d5ae5;
+    --header-color: #2e2f42;
 
 }
 body {
@@ -44,8 +45,9 @@ header {
     letter-spacing: 0.04em;
     color: var(--color-text);
     cursor: pointer;
+    font-family: "Roboto", sans-serif;
 }
-button:hover, button:active {
+.btn:hover, .btn:active {
     color: white;
     background-color: #404BBF;
 }
@@ -66,7 +68,7 @@ a.link:hover, a.link:active {
 .logocolor {
      color: #2e2f42;
 }
-.bg {
+.bgd {
     background-color: #2E2F42;
     color: var(--color-white);
     text-decoration: none;
@@ -81,5 +83,20 @@ a.link:hover, a.link:active {
     color: #4d5ae5;
 }
 .span {
-    color: #2e2f42;
+    color: #2e2f42; #f4f4fd
+}
+.hdr {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--header-color)
+
+}
+.prg {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--body-color)
+
 }
