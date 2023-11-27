@@ -2,41 +2,57 @@
     --first-color-text: #000;
     --second-color-text: #333;
     --color-white: #fff;
---iris: #4d5a4d;
+    --iris: #4d5ae5;
 
 }
-body{
-    font-family: 'Roboto', 'Verdana', 'Tahoma', sans-serif;
+body {
+    font-family: 'Roboto', 'Raleway', sans-serif;
     color: #333;
     background-color: #fff;
+    font-size: 16px;
+    line-height: 1.5;
 }
 nav {
-    background-color: gray;
+    background-color: var(--color-white);
 }
-    
+a {
+    font-size: 12px;
+}
+h2 {
+    font-size: 36px;
+
+h3 {
+    font-size: 20 px;
+}
+}
 li {
-    color: blue;
-    font-size: 50px;
-    a {
-        text-decoration: none;
-    }
+    color: #2E2F42;
+    font-size: 12px;
 }
 header {
-    background-color: var(--iris);
+    background-color: var(--color-white);
 }
 button {
-    color: var(--color-white);
-
+    background-color: #4d5ae5;
+    font-size: 16px;
+    color: white;
 }
 a:hover, button:hover {
-    color: orange;
+    color: white;
+    background-color: #404BBF;
 }
-
+ 
 .logo {
-    font-size: 16px;
+    font-size: 12px;
     text-decoration: none;
-    color: var(--first-color-text);
+    color: var(--color-white);
 }
-.logo .highlight {
-    color: var(--second-color-text);
+.logocolor {
+     color: var(--iris);
+        text-decoration: none;
+}
+.bg {
+    background-color: #2E2F42;
+    color: var(--color-white);
+    text-decoration: none;
 }
