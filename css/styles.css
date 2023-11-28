@@ -47,14 +47,18 @@ header {
     cursor: pointer;
     font-family: "Roboto", sans-serif;
 }
-.btn:hover, .btn:active {
+.btn:hover, .btn:focus {
     color: white;
     background-color: #404BBF;
 }
-a.link:hover, a.link:active {
+.link {
+    text-decoration: none;
+    
+}
+a.link:hover, a.link:focus {
     color: #404BBF;}
  
-.link: {
+.linktel: {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -63,7 +67,11 @@ a.link:hover, a.link:active {
     text-decoration: none;
 }
 .linkcolor {
-    color: var(--body-color)
+    color: var(--body-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .contact {
     font-style: normal;
