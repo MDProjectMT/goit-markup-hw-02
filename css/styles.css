@@ -59,8 +59,11 @@ a.link:hover, a.link:active {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: var(--header-color);
     text-decoration: none;
+}
+.linkcolor {
+    color: var(--body-color)
 }
 .contact {
     font-style: normal;
@@ -99,4 +102,7 @@ a.link:hover, a.link:active {
     letter-spacing: 0.02em;
     color: var(--body-color)
 
+}
+.ft-color: {
+    color: #f4f4fd;
 }
