@@ -65,7 +65,7 @@ header {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: var(--color-background);
+    color: white;
     cursor: pointer;
     font-family: "Roboto", sans-serif;
 }
@@ -115,6 +115,14 @@ a.link:hover, a.link:focus {
     text-transform: uppercase;
     color: #4d5ae5;
 }
+.list-item {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--header-color);
+}
 
 .hdr {
     font-weight: 500;
@@ -146,4 +154,7 @@ a.link:hover, a.link:focus {
     line-height: 1.5;
     color: var(--color-background);
     letter-spacing: 0.02em;
+}
+.bgr-white {
+    background-color: white;
 }
