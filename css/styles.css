@@ -2,19 +2,19 @@
     --color-text: #4d5ae5; 
     --color-background: #F4F4FD;
     --body-color: #434455;
-    --iris: #4d5ae5;
     --header-color: #2e2f42;
+    --focus-hover: #404BBF;
 
 }
 body {
     font-family: "Roboto", sans-serif;
     color:var(--body-color);
-    background-color: #fff;
+    background-color: var(--white-color);
     font-size: 16px;
     line-height: 1.5;
 }
 .list {
-    background-color: white;
+    background-color: var(--white-color);
     text-decoration: none;
     list-style: none;
 }
@@ -36,18 +36,18 @@ a {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #ffffff;
+    color: var(--white-color)hite;
 
 }
 .bgn-team {
-    background-color: #F4F4FD;
+    background-color: var(--color-background);
 }
 li {
-    color: #2E2F42;
+    color: var(--header-color);
     font-size: 12px;
 }
 header {
-    background-color: var(--color-white);
+    background-color: var(--white-color);
 }
 .btn {
     font-weight: 500;
@@ -65,23 +65,23 @@ header {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: white;
+    color: var(--white-color);
     cursor: pointer;
     font-family: "Roboto", sans-serif;
 }
 .btn:hover, .btn:focus, .btn-first:hover, .btn-first:focus {
-    color: white;
-    background-color: #404BBF;
+    color: var(--white-color);
+    background-color: var(--focus-hover);
 }
 .link {
     text-decoration: none;
 
 }
 a.link:hover, a.link:focus {
-    color: #404BBF;}
+    color: var(--focus-hover);}
  
 .linktel: {
-    font-weight: 500;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -90,7 +90,8 @@ a.link:hover, a.link:focus {
 }
 .linkcolor {
     color: var(--body-color);
-    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -99,10 +100,10 @@ a.link:hover, a.link:focus {
     font-style: normal;
 }
 .logocolor {
-     color: #2e2f42;
+     color: var(--header-color);
 }
 .bgd {
-    background-color: #2E2F42;
+    background-color:var(--header-color);
     color: var(--color-white);
     text-decoration: none;
 }
@@ -113,10 +114,10 @@ a.link:hover, a.link:focus {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+    color:var(--color-text);
 }
 .list-item {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -140,7 +141,7 @@ a.link:hover, a.link:focus {
 
 }
 .ft-logo {
-    color: #f4f4fd;
+    color: var(--color-background);
 }
 .logo.id {
     font-family: "Raleway", sans-serif;
@@ -156,5 +157,5 @@ a.link:hover, a.link:focus {
     letter-spacing: 0.02em;
 }
 .bgr-white {
-    background-color: white;
+    background-color: var(--white-color);
 }
