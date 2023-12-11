@@ -80,17 +80,9 @@ header {
 a.link:hover, a.link:focus {
     color: var(--focus-hover);}
  
-.linktel: {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--header-color);
-    text-decoration: none;
-}
 .linkcolor {
     color: var(--body-color);
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
